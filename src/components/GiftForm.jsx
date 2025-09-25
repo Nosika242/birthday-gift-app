@@ -23,7 +23,7 @@ export default function GiftForm({ gift }) {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-blue-200 bg-[url(/image/background_21.jpeg)]  bg-no-repeat bg-cover bg-blend-screen">
-      <div className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500  p-6 rounded-xl shadow-lg w-96 relative">
+      <div className="bg-white p-6 rounded-xl shadow-lg w-96 relative">
         <h2 className="text-xl font-bold mb-4">🎁 {gift?.name}</h2>
         <form onSubmit={handleSend} className="flex flex-col gap-3">
           {/* hidden inputs for emailjs */}
@@ -34,20 +34,20 @@ export default function GiftForm({ gift }) {
             type="text"
             name="name"
             placeholder="Your Name"
-            className=" p-2 hover:border-emerald-50  shadow-md border-4 border-purple-500 border-y-sky-600 rounded-2xl  outline-0 shadow-emerald-300 focus:border-purple-500 focus:ring focus:ring-pink-200 focus:ring-opacity-50"
+            className=" p-2 hover:border-emerald-50  shadow-sm border border-slate-200 rounded-b-3xl  outline-0 shadow-gray-300 focus:border-purple-500 focus:ring focus:ring-pink-200 focus:ring-opacity-50"
             required
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
-            className="p-2 hover:border-emerald-50 shadow-md border-4 border-purple-500 border-x-indigo-500 rounded-2xl  outline-0 shadow-slate-600 focus:border-purple-500 focus:ring focus:ring-pink-200 focus:ring-opacity-50 "
+            className="p-2 hover:border-emerald-50 shadow-sm border border-slate-200  rounded-bl-3xl  outline-0 shadow-slate-300 focus:border-purple-500 focus:ring focus:ring-pink-200 focus:ring-opacity-50 "
             required
           />
           <textarea
             name="note"
             placeholder="Add a note (optional)"
-            className="border-2 p-2 rounded shadow-sm border-purple-500 border-y-sky-600 hover:border-emerald-50 outline-0 shadow-blue-400 focus:border-purple-500 focus:ring focus:ring-pink-200 focus:ring-opacity-50"
+            className="border-2 p-2 rounded shadow-sm border-purple-50  hover:border-emerald-50 outline-0 shadow-slate-300 focus:border-purple-500 focus:ring focus:ring-pink-200 focus:ring-opacity-50"
           />
           <div className="flex gap-2 mt-4">
             <button
