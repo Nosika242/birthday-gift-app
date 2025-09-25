@@ -46,7 +46,7 @@ export default function GiftForm({ gift }) {
           />
           <textarea
             name="note"
-            placeholder="Add a note (optional)"
+            placeholder="Send a Review (optional)"
             className="border-2 p-2 rounded shadow-sm border-purple-50  hover:border-emerald-50 outline-0 shadow-slate-300 focus:border-purple-500 focus:ring focus:ring-pink-200 focus:ring-opacity-50"
           />
           <div className="flex gap-2 mt-4">
