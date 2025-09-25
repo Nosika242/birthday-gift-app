@@ -3,19 +3,19 @@ export function GiftBox() {
     {
       id: 1,
       name: "Birthday Cake",
-      price: "5000",
+      price: "3000",
       image: "/image/birthday_3.jpg",
     },
     {
       id: 2,
       name: "Wine Bottle",
-      price: "7000",
+      price: "2000",
       image: "/image/wine_5.jpeg",
     },
     {
       id: 3,
       name: "Flower Bouquet",
-      price: "5000",
+      price: "1000",
       image: "/image/flower_7.jpeg",
     },
     {
@@ -27,7 +27,7 @@ export function GiftBox() {
     {
       id: 5,
       name: "Pizza ",
-      price: "10000",
+      price: "2000",
       image: "/image/pizza_2.jpeg",
     },
     {
@@ -39,13 +39,13 @@ export function GiftBox() {
     {
       id: 7,
       name: "Card",
-      price: "2000",
+      price: "1000",
       image: "/image/flower_11.jpeg",
     },
     {
       id: 8,
       name: "Apple Watch",
-      price: "25000",
+      price: "5000",
       image: "/image/watch_3.jpeg",
     },
   ];
